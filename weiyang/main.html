@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爱心鱼小游戏</title>
+    <style>
+        body{
+            padding: 10px;
+        }
+        .all_bg{
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+        .allcanvas{
+            width: 800px;
+            height: 600px;
+            position: relative;
+            margin: 0;
+        }
+        #canvase1,#canvase2{
+            width: 800px;
+            height: 600px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #canvase1{
+            z-index: 1;
+        }
+        #canvase2{
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="all_bg">
+        <div class="allcanvas">
+            <canvas id="canvase1" width="800" height="600"></canvas>   <!--前面 -->
+            <canvas id="canvase2" width="800" height="600"></canvas>   <!--后面 -->
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/commonFunctions.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/background.js"></script>
+<script type="text/javascript" src="js/ant.js"></script>
+<script type="text/javascript" src="js/fruit.js"></script>
+<script type="text/javascript" src="js/bigFish.js"></script>
+<script type="text/javascript" src="js/collision.js"></script>
+<script type="text/javascript" src="js/smallFish.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/wave.js"></script>
+<script type="text/javascript" src="js/halo.js"></script>
+<script type="text/javascript" src="js/dust.js"></script>
+</body>
+</html>
+
+
+<!--
+首先游戏分两个阶段进行
+一、
+1.静止的海葵
+2、海葵产生果实
+3、果实自动漂浮
+4、大鱼吃果实
+5、大鱼喂小鱼
+二、
+1、海葵摆动动画
+2、大鱼眼睛、尾巴动画
+3、小鱼眼睛、尾巴动画
+4、小鱼生命值判断
+5、游戏分值计算
+6、漂浮物
+
+
+
+
+
+
+步骤
+1、搭建html结构
+
+ -->
